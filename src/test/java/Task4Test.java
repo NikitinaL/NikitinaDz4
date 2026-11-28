@@ -12,9 +12,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class Task4 {
+public class Task4Tests {
 
-    private static final Logger log = LogManager.getLogger(Task4.class);
+    private static final Logger log = LogManager.getLogger(Task4Tests.class);
 
     private static final String BASE_URL = System.getProperty("base.url",
             "https://the-internet.herokuapp.com");
