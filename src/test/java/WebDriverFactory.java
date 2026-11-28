@@ -7,9 +7,6 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 
 public final class WebDriverFactory {
 
-    private WebDriverFactory() {
-    }
-
     public static WebDriver createDriver(String... arguments) {
         String browser = System.getProperty("browser", "chrome").toLowerCase();
         switch (browser) {
